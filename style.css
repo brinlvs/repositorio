@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #000000;
+    color: #f5f5dc;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+nav {
+    background-color: #f5f5dc;
+    padding: 1rem;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: #000000;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #000000;
+    color: #f5f5dc;
+}
+
+main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+section {
+    margin-bottom: 3rem;
+    padding: 2rem;
+    background-color: #fafafa;
+    border-radius: 10px;
+    border: 2px solid #f5f5dc;
+}
+
+section h2 {
+    color: #000000;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid #f5f5dc;
+}
+
+.projeto-card {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    border-radius: 8px;
+    border: 2px solid #000000;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+
+.projeto-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 5px 5px 0px #f5f5dc;
+}
+
+.projeto-card h3 {
+    color: #000000;
+    margin-bottom: 0.5rem;
+}
+
+.tag {
+    display: inline-block;
+    background-color: #f5f5dc;
+    color: #000000;
+    padding: 0.25rem 0.75rem;
+    margin: 0.25rem 0.25rem 0.25rem 0;
+    border-radius: 15px;
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
+.btn-linkedin {
+    display: inline-block;
+    background-color: #000000;
+    color: #f5f5dc;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+    transition: background-color 0.3s;
+}
+
+.btn-linkedin:hover {
+    background-color: #333;
+}
+
+footer {
+    background-color: #000000;
+    color: #f5f5dc;
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 3rem;
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.8rem;
+    }
+    
+    nav a {
+        display: block;
+        margin: 0.5rem 0;
+    }
+}v
